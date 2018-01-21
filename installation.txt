@@ -1,0 +1,8 @@
+﻿Installation
+
+Compilation will result in a Freeframe plugin "FreeFrameMaker.dll".
+
+Rename the file as necessary. You will already have entered the plugin information 
+in the source code before compilation.
+
+The dll can then be copied into the plugin folder for the host application.

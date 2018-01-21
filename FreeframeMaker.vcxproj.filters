@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\FFGL">
+      <UniqueIdentifier>{712569ec-396c-4a7d-b031-829fac146a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FFGL">
+      <UniqueIdentifier>{43536f96-7053-4859-8e0c-4765cd58dfb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOIL_EXT">
+      <UniqueIdentifier>{4364531e-e937-4e20-863e-d2b1f5fbced2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLEE">
+      <UniqueIdentifier>{ed4e4dee-521a-4b65-972c-4380afc8f14d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FFGL\utilities">
+      <UniqueIdentifier>{765a47d5-c9c7-4a85-bd01-1795dfa02a92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FFGL\FFGL.h">
+      <Filter>Header Files\FFGL</Filter>
+    </ClInclude>
+    <ClInclude Include="FFGL\FFGLFBO.h">
+      <Filter>Header Files\FFGL</Filter>
+    </ClInclude>
+    <ClInclude Include="FFGL\FFGLLib.h">
+      <Filter>Header Files\FFGL</Filter>
+    </ClInclude>
+    <ClInclude Include="FFGL\FFGLPluginInfo.h">
+      <Filter>Header Files\FFGL</Filter>
+    </ClInclude>
+    <ClInclude Include="FFGL\FFGLPluginManager.h">
+      <Filter>Header Files\FFGL</Filter>
+    </ClInclude>
+    <ClInclude Include="FFGL\FFGLPluginManager_inl.h">
+      <Filter>Header Files\FFGL</Filter>
+    </ClInclude>
+    <ClInclude Include="FFGL\FFGLPluginSDK.h">
+      <Filter>Header Files\FFGL</Filter>
+    </ClInclude>
+    <ClInclude Include="FFGL\FFGLShader.h">
+      <Filter>Header Files\FFGL</Filter>
+    </ClInclude>
+    <ClInclude Include="FFGL\FreeFrame.h">
+      <Filter>Header Files\FFGL</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shaderfiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL_EXT\glext.h">
+      <Filter>SOIL_EXT</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL_EXT\image_DXT.h">
+      <Filter>SOIL_EXT</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL_EXT\image_helper.h">
+      <Filter>SOIL_EXT</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL_EXT\SOIL.h">
+      <Filter>SOIL_EXT</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL_EXT\stb_image_aug.h">
+      <Filter>SOIL_EXT</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL_EXT\stb_image_write.h">
+      <Filter>SOIL_EXT</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL_EXT\stbi_DDS_aug.h">
+      <Filter>SOIL_EXT</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL_EXT\stbi_DDS_aug_c.h">
+      <Filter>SOIL_EXT</Filter>
+    </ClInclude>
+    <ClInclude Include="GLEE\GLee.h">
+      <Filter>GLEE</Filter>
+    </ClInclude>
+    <ClInclude Include="FFGL\utilities\utilities.h">
+      <Filter>Header Files\FFGL\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeframeMaker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SOIL_EXT\image_DXT.c">
+      <Filter>SOIL_EXT</Filter>
+    </ClCompile>
+    <ClCompile Include="SOIL_EXT\image_helper.c">
+      <Filter>SOIL_EXT</Filter>
+    </ClCompile>
+    <ClCompile Include="SOIL_EXT\SOIL.c">
+      <Filter>SOIL_EXT</Filter>
+    </ClCompile>
+    <ClCompile Include="SOIL_EXT\stb_image_aug.c">
+      <Filter>SOIL_EXT</Filter>
+    </ClCompile>
+    <ClCompile Include="SOIL_EXT\stb_image_write.c">
+      <Filter>SOIL_EXT</Filter>
+    </ClCompile>
+    <ClCompile Include="FFGL\FFGL.cpp">
+      <Filter>Source Files\FFGL</Filter>
+    </ClCompile>
+    <ClCompile Include="FFGL\FFGLFBO.cpp">
+      <Filter>Source Files\FFGL</Filter>
+    </ClCompile>
+    <ClCompile Include="FFGL\FFGLPluginInfo.cpp">
+      <Filter>Source Files\FFGL</Filter>
+    </ClCompile>
+    <ClCompile Include="FFGL\FFGLPluginInfoData.cpp">
+      <Filter>Source Files\FFGL</Filter>
+    </ClCompile>
+    <ClCompile Include="FFGL\FFGLPluginManager.cpp">
+      <Filter>Source Files\FFGL</Filter>
+    </ClCompile>
+    <ClCompile Include="FFGL\FFGLPluginSDK.cpp">
+      <Filter>Source Files\FFGL</Filter>
+    </ClCompile>
+    <ClCompile Include="FFGL\FFGLShader.cpp">
+      <Filter>Source Files\FFGL</Filter>
+    </ClCompile>
+    <ClCompile Include="GLEE\GLee.c">
+      <Filter>GLEE</Filter>
+    </ClCompile>
+    <ClCompile Include="FFGL\utilities\utilities.cpp">
+      <Filter>Header Files\FFGL\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeframeMaker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

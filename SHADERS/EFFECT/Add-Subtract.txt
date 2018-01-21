@@ -1,0 +1,25 @@
+//
+// Adapted from a Resolume freeframe example
+// https://github.com/resolume/ffgl
+
+uniform sampler2D inputTexture;
+uniform vec4 inputColour;
+
+void main()
+{
+	vec4 color = texture2D(inputTexture,gl_TexCoord[0].st);
+	
+	float red = -1.0f + (inputColour.r * 2.0f);
+	float grn = -1.0f + (inputColour.g * 2.0f);
+	float blu = -1.0f + (inputColour.b * 2.0f);
+	
+	if (color.a > 0.0) // unpremultiply
+		color.rgb /= color.a;
+	
+	color.rgb = color.rgb + vec3(red, grn, blu);
+	
+	color.rgb *= color.a; // premultiply
+	
+	gl_FragColor  =  color;
+	
+}
